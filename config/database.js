@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 exports.dbconnect = () => {
-    mongoose.connect("mongodb+srv://DgyQEOBDzI5VhTqT :DgyQEOBDzI5VhTqT@cluster0.10ibais.mongodb.net/", {
+    mongoose.connect("mongodb+srv://rental:devesh40@cluster0.10ibais.mongodb.net/", {
         dbName: "RentalProperty",
     }).then(() => {
         console.log("DB connected successfullyss");
